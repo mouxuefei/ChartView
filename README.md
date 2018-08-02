@@ -222,7 +222,7 @@
 　<center>![这里写图片描述](./image/c.png)</center>
 
 之后就开始绘制**折线图和曲线图**了
-这里我搞了个注释来判断是需要绘制折现还是曲线,随便提一下,kotlin的注释和java的注释写法上面还是有点区别的;
+这里我搞了个自定义注解来判断是需要绘制折现还是曲线,随便提一下,kotlin的自定义注解和java的自定义注解写法上面还是有点区别的;
 
 ```
 @IntDef(value = [CURVELINE, BROKENLINE], flag = false)
